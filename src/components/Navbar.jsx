@@ -31,8 +31,8 @@ const Navbar = () => {
         </li>
         {/* services */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a
-            href="#"
+          <Link
+            to="/service" target="_blank"
             className="hover:text-dimWhite relative"
             onMouseEnter={() => handleMouseEnter("Services")}
             onMouseLeave={handleMouseLeave}
@@ -65,7 +65,7 @@ const Navbar = () => {
             </div>
             
             )}
-          </a>
+          </Link>
         </li>
         {/* programs */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">

@@ -5,9 +5,9 @@ import { footerLinks, socialMedia } from "../constants";
 import {CgMail} from "react-icons/cg"
 
 const Footer = () => (
-  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section id="contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col p-4`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-center mr-10">
+      <div className="flex-[1] flex flex-col items-center justify-center mr-10">
         <img
           src={bg}
           alt="IGORAZA"
