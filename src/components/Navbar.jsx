@@ -52,24 +52,24 @@ const Navbar = () => {
           >
             Services
             {isHovering === "Services" && (
-              <div class="absolute bg-black right-1/2 h-auto w-96 rounded-lg border border-white shadow-md mt-2">
+              <div class="absolute bg-black right-1/2 h-auto w-96 rounded-lg border border-white shadow-md mt-0">
               <div class="p-2 ">
                 <h3 class="text-3xl text-dimWhite">Our Services</h3>
                 <div class="p-2 grid grid-cols-2 gap-7 text-white font-bold">
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Designing</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Website Designing</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Web Application</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">App Development</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">E-Commerce Platform</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Digital Marketing</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Animation</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Cyber Security And Ethical Hacking</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">IoT</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">ML</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">AI</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Blockchain</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">College Project</a>
-                  <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Website Reconstruct</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Designing</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Website Designing</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Web Application</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">App Development</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">E-Commerce Platform</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Digital Marketing</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Animation</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Cyber Security And Ethical Hacking</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">IoT</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">ML</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">AI</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Blockchain</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">College Project</a>
+                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Website Reconstruct</a>
                 </div>
               </div>
               {/* Add more content as needed */}
