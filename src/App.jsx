@@ -23,8 +23,12 @@ import Contact from "./components/Contact/Contact"
 // to compoent wrapping
 const ComponentWrapper = ({Component}) => (
   <div>
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.boxWidth}`}>
+      <Hero />
+      <Stats />
+      <Business />
+
         {Component}
       </div>
     </div>
