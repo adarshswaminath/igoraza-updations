@@ -39,7 +39,7 @@ const Navbar = () => {
           >
             Services
             {isHovering === "Services" && (
-              <div class="absolute bg-black-gradient left-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
+              <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2  h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
               <div class="p-2 ">
                 <h3 class="text-3xl text-dimWhite text-center">Our Services</h3>
                 <div class="p-2 grid grid-cols-4 gap-5 text-white font-bold">
@@ -77,7 +77,7 @@ const Navbar = () => {
           >
             Programs
             {isHovering === "Programs" && (
-                <div class="absolute bg-black-gradient right-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
+                <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2  h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
                 <div class="p-2 ">
                   <h3 class="text-3xl text-dimWhite text-center">Our Programs</h3>
                   <div class="p-2 grid grid-cols-4 gap-5 text-white font-bold">
@@ -114,10 +114,10 @@ const Navbar = () => {
           >
             Portfolio
             {isHovering === "Portfolio" && (
-                <div class="absolute bg-black-gradient right-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
+                <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2  h-auto w-[400px] rounded-lg border border-white shadow-md mt-3">
                 <div class="p-2 ">
                   <h3 class="text-3xl text-dimWhite text-center">Our Portfolio</h3>
-                  <div class="p-2 grid grid-cols-4 gap-5 text-white font-bold">
+                  <div class="p-2 grid  gap-5 text-white font-bold">
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
@@ -126,15 +126,7 @@ const Navbar = () => {
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Designing</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Digital Marketing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">E-Commerce Platform</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">EdTech</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Machine Learning</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Media Production</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Robotics & IoT</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Web Application</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Designing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Reconstruction</a>
-                  </div>
+                 </div>
   
                 </div>
               </div>
@@ -151,10 +143,10 @@ const Navbar = () => {
           >
             Careers
             {isHovering === "Careers" && (
-                <div class="absolute bg-black-gradient right-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
+                <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2  h-auto w-[300px] rounded-lg border border-white shadow-md mt-3">
                 <div class="p-2 ">
                   <h3 class="text-3xl text-dimWhite text-center">Our Careers</h3>
-                  <div class="p-2 grid grid-cols-4 gap-5 text-white font-bold">
+                  <div class="p-2 grid gap-5 text-white font-bold">
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
@@ -163,15 +155,7 @@ const Navbar = () => {
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Designing</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Digital Marketing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">E-Commerce Platform</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">EdTech</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Machine Learning</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Media Production</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Robotics & IoT</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Web Application</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Designing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Reconstruction</a>
-                  </div>
+                </div>
   
                 </div>
               </div>
@@ -188,10 +172,10 @@ const Navbar = () => {
           >
             Blog
             {isHovering === "Blog" && (
-                <div class="absolute bg-black-gradient right-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
+                <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2  h-auto w-[200px] rounded-lg border border-white shadow-md mt-3">
                 <div class="p-2 ">
                   <h3 class="text-3xl text-dimWhite text-center">Our Blogs</h3>
-                  <div class="p-2 grid grid-cols-4 gap-5 text-white font-bold">
+                  <div class="p-2 grid  gap-5 text-white font-bold">
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
@@ -199,16 +183,7 @@ const Navbar = () => {
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">College Projects</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Designing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Digital Marketing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">E-Commerce Platform</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">EdTech</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Machine Learning</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Media Production</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Robotics & IoT</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Web Application</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Designing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Reconstruction</a>
-                  </div>
+                 </div>
   
                 </div>
               </div>
@@ -216,42 +191,29 @@ const Navbar = () => {
           </a>
         </li>
         {/* Contact */}
-        <li className="font-poppins font-bold cursor-pointer text-[16px]">
-        <a
-            href="#"
-            className="hover:text-dimWhite relative"
-            onMouseEnter={() => handleMouseEnter("Contact")}
-            onMouseLeave={handleMouseLeave}
-          >
-            Contact
-            {isHovering === "Contact" && (
-                <div class="absolute bg-black-gradient right-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
-                <div class="p-2 ">
-                  <h3 class="text-3xl text-dimWhite text-center">Contacts</h3>
-                  <div class="p-2 grid grid-cols-4 gap-5 text-white font-bold">
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain & Web3</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">College Projects</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Designing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Digital Marketing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">E-Commerce Platform</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">EdTech</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Machine Learning</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Media Production</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Robotics & IoT</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Web Application</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Designing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Reconstruction</a>
-                  </div>
-  
-                </div>
+        <li className="font-poppins font-bold cursor-pointer text-[16px] relative">
+      <a
+        href="#"
+        className="hover:text-dimWhite relative"
+        onMouseEnter={() => handleMouseEnter("Contact")}
+        onMouseLeave={handleMouseLeave}
+      >
+        Contact
+        {isHovering === "Contact" && (
+          <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2 h-auto w-[150px] rounded-lg border border-white shadow-md mt-3">
+            <div class="p-2">
+              <h3 class="text-3xl text-dimWhite text-center">Contacts</h3>
+              <div class="p-2 grid gap-5 text-white font-bold">
+                <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
+                <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
+                <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
+                <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain & Web3</a>
               </div>
-            )}
-          </a>
-        </li>
+            </div>
+          </div>
+        )}
+      </a>
+    </li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
