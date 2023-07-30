@@ -9,6 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [isHovering, setIsHovering] = useState(""); // State for hover effect
 
+
   const handleMouseEnter = (title) => {
     setIsHovering(title);
   };
@@ -51,10 +52,10 @@ const Navbar = () => {
           >
             Services
             {isHovering === "Services" && (
-              <div class="absolute bg-black left-1/2 h-screen w-96 rounded-lg border border-white shadow-md mt-2">
+              <div class="absolute bg-black right-1/2 h-auto w-96 rounded-lg border border-white shadow-md mt-2">
               <div class="p-2 ">
-                <h3 class="text-3xl text-white">Our Services</h3>
-                <div class="p-2 grid grid-cols-2 gap-7 text-red-600 font-bold">
+                <h3 class="text-3xl text-dimWhite">Our Services</h3>
+                <div class="p-2 grid grid-cols-2 gap-7 text-white font-bold">
                   <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Designing</a>
                   <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Website Designing</a>
                   <a href="" class="border-b-2 border-[#00f6ff] hover:text-[#00f6ff] transition">Web Application</a>
