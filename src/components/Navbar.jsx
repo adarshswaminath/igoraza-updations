@@ -1,7 +1,11 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, menu,logo } from "../assets";
+import icon from "../assets/icon.png";
+// import logo from "../assets/asset30.png";
+
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -10,13 +14,16 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[130px] h-[42px]" />
+      <div className="flex items-center">
+      <img src={icon} alt="hoobank" className="w-[58px] h-[55px] " />
+      <img src={logo} alt="hoobank" className="w-[148px] h-[65px] " />
+      </div>
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className=" list-none sm:flex hidden justify-end items-center flex-1 ">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-bold cursor-pointer text-[16px] ${
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
@@ -24,13 +31,14 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
+       
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain"
+          className="w-[32px] h-[32px] object-contain"
           onClick={() => setToggle(!toggle)}
         />
 
@@ -43,7 +51,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                className={`font-poppins font-bold cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
@@ -51,6 +59,7 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+      
           </ul>
         </div>
       </div>
