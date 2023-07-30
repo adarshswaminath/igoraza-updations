@@ -25,7 +25,7 @@ const Navbar = () => {
         <img src={logo} alt="hoobank" className="w-[148px] h-[65px]" />
       </div>
       {/* desktop view */}
-      <ul className="list-none sm:flex gap-6 hidden justify-end items-center flex-1 text-white">
+      <ul className="list-none sm:flex gap-12 hidden justify-end items-center flex-1 text-white">
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
           <a
             href="#"
@@ -52,7 +52,7 @@ const Navbar = () => {
           >
             Services
             {isHovering === "Services" && (
-              <div class="absolute bg-black right-1/2 h-auto w-96 rounded-lg border border-white shadow-md mt-0">
+              <div class="absolute bg-black-gradient right-1/2 h-auto w-96 rounded-lg border border-white shadow-md mt-0">
               <div class="p-2 ">
                 <h3 class="text-3xl text-dimWhite">Our Services</h3>
                 <div class="p-2 grid grid-cols-2 gap-7 text-white font-bold">
