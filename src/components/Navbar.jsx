@@ -52,25 +52,28 @@ const Navbar = () => {
           >
             Services
             {isHovering === "Services" && (
-              <div class="absolute bg-black-gradient right-1/2 h-auto w-96 rounded-lg border border-white shadow-md mt-0">
+              <div class="absolute bg-black-gradient right-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
               <div class="p-2 ">
                 <h3 class="text-3xl text-dimWhite">Our Services</h3>
-                <div class="p-2 grid grid-cols-2 gap-7 text-white font-bold">
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Designing</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Website Designing</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Web Application</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">App Development</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">E-Commerce Platform</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Digital Marketing</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Animation</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Cyber Security And Ethical Hacking</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">IoT</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">ML</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">AI</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Blockchain</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">College Project</a>
-                  <a href="" class="border-b-2 border-[#ff2268] hover:text-[#ff2268] transition">Website Reconstruct</a>
-                </div>
+                <div class="p-2 grid grid-cols-4 gap-5 text-white font-bold">
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain & Web3</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">College Projects</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Designing</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Digital Marketing</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">E-Commerce Platform</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">EdTech</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Machine Learning</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Media Production</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Robotics & IoT</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Web Application</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Designing</a>
+  <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Reconstruction</a>
+</div>
+
               </div>
               {/* Add more content as needed */}
             </div>
