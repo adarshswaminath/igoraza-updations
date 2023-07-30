@@ -46,15 +46,15 @@ const Navbar = () => {
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
-                  <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">BLOCKCHAIN and web3</a>
+                  <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain and web3</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Bussiness Development & Consultancy</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">CRM, ERP, SAAS</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Desigining</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Digital Marketing</a>
-                  <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Edtech and Elearning</a>
+                  <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Edtech and E-learning</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">IoT & Robotics</a>
-                  <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Machine learning</a>
+                  <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Machine Learning</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Media Production</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Website Development</a>
 
