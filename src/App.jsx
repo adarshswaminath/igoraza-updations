@@ -14,6 +14,24 @@ import {
 } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Service from "./components/Service/Service";
+import Program from "./components/Programs/Program";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Career from "./components/Careers/Career";
+import Blog from "./components/Blog/Blog";
+import Contact from "./components/Contact/Contact"
+
+// to compoent wrapping
+const ComponentWrapper = ({Component}) => (
+  <div>
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        {Component}
+      </div>
+    </div>
+  </div>
+)
+
+
 
 const App = () => {
   return (
@@ -27,7 +45,15 @@ const App = () => {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/service" element={<ServiceWrapper />} />
+          <Route path="/service" element={<ComponentWrapper Component={<Service/>}/>} />
+          <Route path="/programs" element={<ComponentWrapper Component={<Program/>}/>}/>
+          <Route path="/portfolio" element={<ComponentWrapper Component={<Portfolio/>}/>}/>
+          <Route path="/careers" element={<ComponentWrapper Component={<Career/>}/>}/>
+          <Route path="/blogs" element={<ComponentWrapper Component={<Blog/>}/>}/>
+          <Route path="/contact" element={<ComponentWrapper Component={<Contact/>}/>}/>
+
+
+
         </Routes>
 
         <Footer />
@@ -51,15 +77,5 @@ const Home = () => (
   </div>
 );
 
-// ServiceWrapper Component: Contains the Service component and hides the main content
-const ServiceWrapper = () => (
-  <div>
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Service />
-      </div>
-    </div>
-  </div>
-);
 
 export default App;

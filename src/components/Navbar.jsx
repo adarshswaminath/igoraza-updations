@@ -68,8 +68,9 @@ const Navbar = () => {
         </li>
         {/* programs */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a
-            href="#"
+          <Link
+            to="/programs"
+            target="_blank"
             className="hover:text-dimWhite relative"
             onMouseEnter={() => handleMouseEnter("Programs")}
             onMouseLeave={handleMouseLeave}
@@ -91,23 +92,23 @@ const Navbar = () => {
                 </div>
               </div>
             )}
-          </a>
+          </Link>
         </li>
         {/* Portfolio */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a href="#" className="hover:text-dimWhite relative">Portfolio</a>
+          <Link to="/portfolio" target="_blank" className="hover:text-dimWhite relative">Portfolio</Link>
         </li>
         {/* Careers */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a href="#" className="hover:text-dimWhite relative">Careers</a>
+          <Link to="/careers" target="_blank" className="hover:text-dimWhite relative">Careers</Link>
         </li>
         {/* Blog */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a href="#" className="hover:text-dimWhite relative">Blog</a>
+          <Link to="/blogs" target="_blank" className="hover:text-dimWhite relative">Blog</Link>
         </li>
         {/* Contact */}
         <li className="font-poppins font-bold cursor-pointer text-[16px] relative">
-      <a href="#"className="hover:text-dimWhite relative">Contact</a>
+      <Link to="/contact" target="_blank" className="hover:text-dimWhite relative">Contact</Link>
     </li>
       </ul>
 
