@@ -52,7 +52,7 @@ const Navbar = () => {
           >
             Services
             {isHovering === "Services" && (
-              <div class="absolute bg-black-gradient right-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
+              <div class="absolute bg-black-gradient left-1/2 h-auto w-[655px] rounded-lg border border-white shadow-md mt-3">
               <div class="p-2 ">
                 <h3 class="text-3xl text-dimWhite text-center">Our Services</h3>
                 <div class="p-2 grid grid-cols-4 gap-5 text-white font-bold">
