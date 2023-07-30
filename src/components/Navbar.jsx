@@ -95,113 +95,19 @@ const Navbar = () => {
         </li>
         {/* Portfolio */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a
-            href="#"
-            className="hover:text-dimWhite relative"
-            onMouseEnter={() => handleMouseEnter("Portfolio")}
-            onMouseLeave={handleMouseLeave}
-          >
-            Portfolio
-            {isHovering === "Portfolio" && (
-                <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2  h-auto w-[400px] rounded-lg border border-white shadow-md ">
-                <div class="p-2 ">
-                  <h3 class="text-3xl text-dimWhite text-center">Our Portfolio</h3>
-                  <div class="p-2 grid  gap-5 text-white font-bold">
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain & Web3</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">College Projects</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Designing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Digital Marketing</a>
-                 </div>
-  
-                </div>
-              </div>
-            )}
-          </a>
+          <a href="#" className="hover:text-dimWhite relative">Portfolio</a>
         </li>
         {/* Careers */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a
-            href="#"
-            className="hover:text-dimWhite relative"
-            onMouseEnter={() => handleMouseEnter("Careers")}
-            onMouseLeave={handleMouseLeave}
-          >
-            Careers
-            {isHovering === "Careers" && (
-                <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2  h-auto w-[300px] rounded-lg border border-white shadow-md ">
-                <div class="p-2 ">
-                  <h3 class="text-3xl text-dimWhite text-center">Our Careers</h3>
-                  <div class="p-2 grid gap-5 text-white font-bold">
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain & Web3</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">College Projects</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Designing</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Digital Marketing</a>
-                </div>
-  
-                </div>
-              </div>
-            )}
-          </a>
+          <a href="#" className="hover:text-dimWhite relative">Careers</a>
         </li>
         {/* Blog */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a
-            href="#"
-            className="hover:text-dimWhite relative"
-            onMouseEnter={() => handleMouseEnter("Blog")}
-            onMouseLeave={handleMouseLeave}
-          >
-            Blog
-            {isHovering === "Blog" && (
-                <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2  h-auto w-[200px] rounded-lg border border-white shadow-md">
-                <div class="p-2 ">
-                  <h3 class="text-3xl text-dimWhite text-center">Our Blogs</h3>
-                  <div class="p-2 grid  gap-5 text-white font-bold">
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain & Web3</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">College Projects</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Cyber Security</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Designing</a>
-                 </div>
-  
-                </div>
-              </div>
-            )}
-          </a>
+          <a href="#" className="hover:text-dimWhite relative">Blog</a>
         </li>
         {/* Contact */}
         <li className="font-poppins font-bold cursor-pointer text-[16px] relative">
-      <a
-        href="#"
-        className="hover:text-dimWhite relative"
-        onMouseEnter={() => handleMouseEnter("Contact")}
-        onMouseLeave={handleMouseLeave}
-      >
-        Contact
-        {isHovering === "Contact" && (
-          <div class="absolute bg-black-gradient top-full left-1/2 transform -translate-x-1/2 h-auto w-[150px] rounded-lg border border-white shadow-md">
-            <div class="p-2">
-              <h3 class="text-3xl text-dimWhite text-center">Contacts</h3>
-              <div class="p-2 grid gap-5 text-white font-bold">
-                <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
-                <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
-                <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
-                <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain & Web3</a>
-              </div>
-            </div>
-          </div>
-        )}
-      </a>
+      <a href="#"className="hover:text-dimWhite relative">Contact</a>
     </li>
       </ul>
 
