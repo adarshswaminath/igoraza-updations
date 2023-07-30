@@ -7,7 +7,11 @@ export const navLinks = [
   },
   {
     id: "service",
-    title: "IT Services",
+    title: "Services",
+  },
+  {
+    id: "programs",
+    title: "Programs",
   },
   {
     id: "portfolio",
@@ -16,6 +20,10 @@ export const navLinks = [
   {
     id: "careers",
     title: "Careers",
+  },
+  {
+    id: "blog",
+    title: "Blogs",
   },
   {
     id: "contact",
