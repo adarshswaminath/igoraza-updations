@@ -82,7 +82,7 @@ const Navbar = () => {
                   <h3 class="text-3xl text-dimWhite text-center">Our Programs</h3>
                   <div class="p-2 grid gap-5 text-white font-bold">
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Hackathon</a>
-                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Mooc</a>
+                    <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">MOOC</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Internship Programs</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Incubation Programm</a>
                     <a href="" class=" border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Collab Workshops</a>
