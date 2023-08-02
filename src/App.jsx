@@ -19,6 +19,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Career from "./components/Careers/Career";
 import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact"
+import { Read } from "./components/Blog/Read";
 
 // to compoent wrapping
 const ComponentWrapper = ({Component}) => (
@@ -51,7 +52,7 @@ const App = () => {
           <Route path="/careers" element={<ComponentWrapper Component={<Career/>}/>}/>
           <Route path="/blogs" element={<ComponentWrapper Component={<Blog/>}/>}/>
           <Route path="/contact" element={<ComponentWrapper Component={<Contact/>}/>}/>
-
+          <Route path="/blogs/read" element={<ComponentWrapper Component={<Read/>}/>}/>
 
 
         </Routes>

@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react";
+import Works from "./Works";
+
 
 function Portfolio() {
   return (
-    <div className='h-screen flex items-center justify-center text-3xl text-white'>
-        Portfolio</div>
-  )
+    <div className=" flex h-screen flex-col items-center justify-center  text-white">
+      <Works />
+    </div>
+  );
 }
 
-export default Portfolio
+export default Portfolio;
