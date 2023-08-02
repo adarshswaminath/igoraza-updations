@@ -24,11 +24,7 @@ import Contact from "./components/Contact/Contact"
 const ComponentWrapper = ({Component}) => (
   <div>
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-    <div className={`${styles.boxWidth}`}>
-      <Hero />
-      <Stats />
-      <Business />
-
+    <div className={`${styles.boxWidth} `}>
         {Component}
       </div>
     </div>

@@ -12,7 +12,7 @@ const CTA = () => (
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
     <a href="https://wa.me/+917736886026?text=Hey+igoraza" target="_blank">
-    <button type="button" target="_blank" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+    <button type="button" target="_blank" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-pink-gradient rounded-[10px] outline-none ${styles}`}>
     Contact Now
   </button>
   </a>

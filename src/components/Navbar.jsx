@@ -27,7 +27,7 @@ const Navbar = () => {
       {/* desktop view */}
       <ul className="list-none sm:flex gap-12 hidden justify-end items-center flex-1 text-white">
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
-          <a href="#" className="hover:text-dimWhite relative">Home</a>
+          <Link to="/" className="hover:text-dimWhite relative">Home</Link>
         </li>
         {/* services */}
         <li className="font-poppins font-bold cursor-pointer text-[16px]">
@@ -43,7 +43,7 @@ const Navbar = () => {
               <div class="p-2 ">
                 <h3 class="text-3xl text-dimWhite text-center">Our Services</h3>
                 <div class="p-2 grid grid-cols-2 gap-5 text-white font-bold">
-                  <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</a>
+                  <Link to="/service#ai" target="_blnk" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">AI & Automation</Link>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Animation</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">App Development</a>
                   <a href="" class="border-[#ff2268] hover:text-[#ff2268] transition border-b border-r">Blockchain and web3</a>

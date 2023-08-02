@@ -30,8 +30,8 @@ const Business = () =>  (
       </p>
 
       <a href="#consultancy" >
-    <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-blue-gradient rounded-[10px] outline-none mt-10`}>
-    Get Started
+    <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-white bg-pink-gradient rounded-[10px] outline-none mt-10`}>
+    Get In Touch
   </button>
   </a>
     </div>

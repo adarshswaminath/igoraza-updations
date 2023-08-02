@@ -95,11 +95,11 @@ export const feedback = [
 ];
 
 export const stats = [
-  {
-    id: "stats-1",
-    title: "Active Clients",
-    value: "300+",
-  },
+  // {
+  //   id: "stats-1",
+  //   title: "Active Clients",
+  //   value: "300+",
+  // },
   {
     id: "stats-2",
     title: "Trusted by Company's",
