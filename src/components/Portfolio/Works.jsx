@@ -11,15 +11,15 @@ const Works = () => {
     // card images component
     const Card = ({image}) => {
         return(
-            <div>
-                <img src={image} alt="" />
-            </div>
+            <div className="flex items-center justify-center">
+        <img src={image} alt="" className="max-w-xs md:max-w-sm lg:max-w-md rounded-lg shadow-md" />
+      </div>
         )
     }
   return (
     <div>
         <h3 className={`text-3xl font-bold ${styles.heading2}`}>Our Works.</h3>
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2">
             {images.map((value,index) => (
                 <div key={index}>
                     <Card

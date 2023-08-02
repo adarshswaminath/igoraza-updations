@@ -1,8 +1,11 @@
 import React from "react";
-import hero from "../../assets/service.png"
-import styles from "../../style"
+import hero from "../../assets/service.png";
+import styles from "../../style";
+import ServiceCard from "./ServiceCard";
+import {data} from "./servicedata"
 
 function Service() {
+
   return (
     <div>
       <section
@@ -14,12 +17,10 @@ function Service() {
         >
           <div className="flex flex-row justify-between items-center w-full">
             <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[50px] text-white ss:leading-[100.8px] leading-[75px]">
-              Our{" "}
-              {/* <br className="sm:block hidden" />{" "} */}
+              Our {/* <br className="sm:block hidden" />{" "} */}
               <span className="text-gradient">Services</span>{" "}
             </h1>
-            <div className="ss:flex hidden md:mr-4 mr-0">
-            </div>
+            <div className="ss:flex hidden md:mr-4 mr-0"></div>
           </div>
 
           {/* <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
@@ -71,43 +72,34 @@ function Service() {
           </div>
         </div>
         {/* @dev two box with half width*/}
-        <div className="grid gap-4 lg:flex mt-6">
-          <div className="w-full lg:w-1/2 bg-black-gradient rounded-lg p-2">
-            <h3 className="text-2xl font-bold text-center text-white ">
-              Animation
-            </h3>
-            <p className="p-4 text-center text-white">
-              Adipisicing Lorem cillum cupidatat do nulla veniam id Lorem
-              excepteur. Aute minim culpa irure amet quis. Ipsum sit eu commodo
-              proident ullamco anim sint laboris consequat est cupidatat. Enim
-              laborum exercitation qui eiusmod excepteur dolor excepteur velit
-              aliquip aute duis veniam. Consectetur id voluptate velit ex et
-              proident esse id ex proident fugiat eiusmod pariatur adipisicing.
-            </p>
-            <div className="flex justify-center mt-6">
-              <button className="px-8 py-4 bg-pink-gradient rounded-lg text-white font-bold">
-                Know More
-              </button>
-            </div>
-          </div>
-          {/* second half width box */}
-          <div className="w-full lg:w-1/2 bg-black-gradient rounded-lg p-2">
-            <h3 className="text-2xl font-bold text-center text-white">
-              App Development
-            </h3>
-            <p className="p-4 text-center text-white">
-              Adipisicing Lorem cillum cupidatat do nulla veniam id Lorem
-              excepteur. Aute minim culpa irure amet quis. Ipsum sit eu commodo
-              proident ullamco anim sint laboris consequat est cupidatat. Enim
-              laborum exercitation qui eiusmod excepteur dolor excepteur velit
-              aliquip aute duis veniam. Consectetur id voluptate velit ex et
-              proident esse id ex proident fugiat eiusmod pariatur adipisicing.
-            </p>
-            <div className="flex justify-center mt-6">
-              <button className="px-8 py-4 bg-pink-gradient rounded-lg text-white font-bold">
-                Know More
-              </button>
-            </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+          {data.map((value, index) => (
+              <ServiceCard 
+              key={value.id}
+              title={value.title}
+              description={value.description} />
+            ))}
+        </div>
+
+        <div
+          className="p-12 bg-black-gradient mt-6 rounded-lg shadow-lg"
+          id="ai"
+        >
+          <h3 className="text-2xl font-bold text-center text-white">
+            Web Development
+          </h3>
+          <p className="mt-4 text-center text-white">
+            Adipisicing Lorem cillum cupidatat do nulla veniam id Lorem
+            excepteur. Aute minim culpa irure amet quis. Ipsum sit eu commodo
+            proident ullamco anim sint laboris consequat est cupidatat. Enim
+            laborum exercitation qui eiusmod excepteur dolor excepteur velit
+            aliquip aute duis veniam. Consectetur id voluptate velit ex et
+            proident esse id ex proident fugiat eiusmod pariatur adipisicing.
+          </p>
+          <div className="flex justify-center mt-6">
+            <button className="px-8 py-4 bg-pink-gradient rounded-lg text-white font-bold">
+              Know More
+            </button>
           </div>
         </div>
       </div>
