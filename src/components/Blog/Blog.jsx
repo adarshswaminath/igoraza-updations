@@ -1,6 +1,7 @@
 import React from "react";
 import { blog } from "./blog";
 import { Link, useNavigate } from "react-router-dom";
+import styles from "../../style";
 
 const Box = ({ image, title, content, caption }) => {
   const navigate = useNavigate(); // Corrected the function name to "navigate"
@@ -40,10 +41,13 @@ const Box = ({ image, title, content, caption }) => {
 function Blog() {
   return (
     <div>
-      <div className="h-80 bg-black-gradient rounded-lg flex items-center justify-center">
+      <div className="h-80 bg-black-gradient rounded-lg flex flex-col items-center justify-center">
         <h2 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold text-center">
           Our Blogs
         </h2>
+        <p className={`${styles.paragraph} p-3`}>
+          Labore cupidatat cupidatat sint id consectetur amet ea nostrud in laboris adipisicing. Ut fugiat do culpa id. Laboris laboris est consequat exercitation consequat fugiat eiusmod ipsum nisi consequat pariatur. Fugiat commodo pariatur nostrud quis dolore dolore.
+        </p>
       </div>
       {/* list of blogs */}
       <div className="flex flex-col gap-6 md:gap-8 mt-6 md:px-8 mx-auto items-center justify-center">
